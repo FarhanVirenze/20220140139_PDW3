@@ -1,46 +1,46 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    background-color: darkred;
-    text-align: center;
+* { /* Ini adalah selektor universal yang memengaruhi semua elemen di halaman.*/
+    margin: 0%; /*  Menetapkan margin menjadi 0% untuk semua elemen.*/
+    padding: 0%; /* Menetapkan padding menjadi 0% untuk semua elemen.*/
+    box-sizing: border-box; /* Mengatur box model untuk setiap elemen, sehingga padding dan border dihitung dalam lebar dan tinggi total elemen.*/
+    background-color: darkred; /* Menetapkan warna latar belakang menjadi darkred untuk semua elemen.*/
+    text-align: center; /* Mengatur teks agar selalu berada di tengah untuk semua elemen.*/
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+body { /* Ini adalah aturan untuk elemen <body> di halaman HTML.*/
+    display: flex; /* Mengatur elemen body menggunakan model flexbox.*/
+    flex-direction: column; /* column;: Menetapkan arah tata letak menjadi kolom.*/
+    align-items: center; /*  Mengatur semua item di dalam body agar berada di tengah secara horizontal*/
+    justify-content: center; /* Mengatur semua item di dalam body agar berada di tengah secara vertikal.*/
 }
 
-h2 {
-    padding: 20px;
-    color: whitesmoke;
-    display: center;
-    justify-content: center;
+h2 { /* Ini adalah aturan untuk elemen <h2>.*/
+    padding: 20px; /* Memberikan padding sebesar 20 piksel di sekitar elemen.*/
+    color: whitesmoke; /* Menetapkan warna teks menjadi whitesmoke.*/
+    display: center; /* Ini tidak valid, seharusnya display: block; atau tidak perlu ada karena h2 secara default memiliki tata letak blok.*/
+    justify-content: center; /* Ini tidak berpengaruh pada elemen h2, karena justify-content hanya berpengaruh pada elemen dengan tata letak flexbox.*/
 }
 
-p {
-    color: white;
-    font-size: 16px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+p { /* Ini adalah aturan untuk elemen <p>.*/
+    color: white; /* Menetapkan warna teks menjadi putih.*/
+    font-size: 16px; /* Menetapkan ukuran font menjadi 16 piksel.*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif /* Menetapkan jenis font untuk teks.*/
 }
 
-.card {
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 785px;
-    height: auto;
-    border-radius: 20px;
-    border: 2px solid #000;
-    background-color: darkred;
+.card { /* Ini adalah aturan untuk kelas .card.*/ 
+    padding: 40px; /* Memberikan padding sebesar 40 piksel di sekitar elemen.*/
+    display: flex; /* Mengatur elemen .card menggunakan model flexbox.*/
+    flex-direction: column; /* Menetapkan arah tata letak menjadi kolom.*/
+    justify-content: center; /* Mengatur semua item di dalam .card agar berada di tengah secara vertikal.*/
+    width: 785px; /* Menetapkan lebar .card menjadi 785 piksel.*/
+    height: auto; /* Tinggi .card menyesuaikan dengan kontennya.*/
+    border-radius: 20px; /* Memberikan sudut yang melengkung pada .card.*/
+    border: 2px solid #000; /* Menetapkan border berukuran 2 piksel dengan warna hitam untuk .card.*/
+    background-color: darkred; /* Menetapkan warna latar belakang menjadi darkred untuk .card.*/
 }
 
-.gambar {
-    width: 700px;
-    height: auto;
-    justify-content: center;
-    display: flex;
+.gambar { /* Ini adalah aturan untuk kelas .gambar.*/
+    width: 700px; /*  Menetapkan lebar gambar menjadi 700 piksel.*/
+    height: auto; /* Tinggi gambar disesuaikan agar proporsional.*/
+    justify-content: center; /* Ini tidak berpengaruh pada gambar karena gambar bukan elemen flexbox.*/
+    display: flex; /* Ini tidak berpengaruh pada gambar karena gambar bukan elemen flexbox.*/
 }
