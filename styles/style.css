@@ -2,7 +2,6 @@
     margin: 0%; /*  Menetapkan margin menjadi 0% untuk semua elemen.*/
     padding: 0%; /* Menetapkan padding menjadi 0% untuk semua elemen.*/
     box-sizing: border-box; /* Mengatur box model untuk setiap elemen, sehingga padding dan border dihitung dalam lebar dan tinggi total elemen.*/
-    background-color: darkred; /* Menetapkan warna latar belakang menjadi darkred untuk semua elemen.*/
     text-align: center; /* Mengatur teks agar selalu berada di tengah untuk semua elemen.*/
 }
 
@@ -43,4 +42,42 @@ p { /* Ini adalah aturan untuk elemen <p>.*/
     height: auto; /* Tinggi gambar disesuaikan agar proporsional.*/
     justify-content: center; /* Ini tidak berpengaruh pada gambar karena gambar bukan elemen flexbox.*/
     display: flex; /* Ini tidak berpengaruh pada gambar karena gambar bukan elemen flexbox.*/
+}
+
+/* Gaya untuk form login */
+.login-form {
+    background-color: #f0f0f0; /* Mengatur warna latar belakang */
+    padding: 20px; /* Memberikan ruang padding di sekitar form */
+    border-radius: 10px; /* Memberikan sudut bulat pada form */
+}
+
+/* Gaya untuk teks "Login" */
+.login-form h2 {
+    color: #333; /* Mengatur warna teks */
+}
+
+/* Gaya untuk label dan input */
+.login-form label,
+.login-form input {
+    display: block; /* Membuat label dan input tampil dalam blok terpisah */
+    margin-bottom: 10px; /* Memberikan jarak antara label/input */
+}
+
+/* Gaya untuk tombol login */
+.login-form button {
+    background-color: #4CAF50; /* Mengatur warna latar belakang */
+    color: black; /* Mengatur warna teks */
+    padding: 10px 20px; /* Memberikan ruang padding di dalam tombol */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Memberikan sudut bulat pada tombol */
+    cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+}
+
+/* Gaya untuk tombol login saat dihover */
+.login-form button:hover {
+    background-color: #45a049; /* Mengubah warna latar belakang saat dihover */
+}
+
+#waktu {
+    color: black; /* Atur warna teks menjadi merah */
 }

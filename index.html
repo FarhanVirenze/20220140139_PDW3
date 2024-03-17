@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css"> <!-- Menghubungkan halaman HTML dengan file CSS yang berisi aturan gaya untuk memformat tampilan halaman.-->
-    <title>Pertemuan 3</title> <!--Menetapkan judul halaman web yang akan ditampilkan di tab browser.-->
+    <title>JavaScript</title> <!--Menetapkan judul halaman web yang akan ditampilkan di tab browser.-->
 </head>
 <body>
     <div class="card"> <!-- Sebuah div yang menunjukkan kartu atau kardus yang berisi informasi tentang bunga mawar.-->
@@ -16,4 +16,27 @@
         </div>
     </div>
 </body>
+
+<div class="login-form">
+    <h2>Login</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+    </form>
+</div>
+
+<button onclick="sweetalert()" type="submit">Login</button>
+<p id="waktu"></p>
+
+    <script>
+        function sweetalert() {
+            alert("Halooo")
+        }
+    </script>
+
+    <script src="./script/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </html>
